@@ -6,7 +6,7 @@ The workflow includes:
 
 1. Data Creation
 
-Three datasets are created from scratch using Python dictionaries:
+  Three datasets are created from scratch using Python dictionaries:
 
 - Project Data – Contains project IDs, names, costs, and statuses.
 - Employee Data – Includes employee details such as name, gender, city, and age.
@@ -14,11 +14,11 @@ Three datasets are created from scratch using Python dictionaries:
   
 2. Data Cleaning & Handling Missing Values
 
-  Loaded Project.csv and checked for missing values in the Cost column. Applied a running average method by Replacing missing cost values with the average of all previous non-missing values. If no previous values, used 0.
+   Loaded Project.csv and checked for missing values in the Cost column. Applied a running average method by Replacing missing cost values with the average of all previous non-missing values. If no previous values, used 0.
   
 3. Data Merging & Transformation
 
-  Merged all three datasets into a master table. Performed various data transformations:
+    Merged all three datasets into a master table. Performed various data transformations:
 
    - Added calculated fields like project bonus.
    - Adjusted designation levels based on project status and employee age.
